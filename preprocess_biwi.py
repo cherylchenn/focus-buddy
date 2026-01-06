@@ -31,7 +31,7 @@ def pose_to_class(yaw, pitch): # maps yaw / pitch to multi-class label
     elif yaw <= -15:
         return 1 # left
     elif yaw >= 15:
-        return 2
+        return 2 # right
     elif pitch <= -15:
         return 3 # up
     elif pitch >= 15:

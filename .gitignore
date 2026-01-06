@@ -1,2 +1,5 @@
 BIWI/
 *.npz
+*.pth
+data/
+__pycache__/
