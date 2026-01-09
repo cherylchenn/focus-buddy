@@ -25,7 +25,7 @@ Focus Buddy is a real-time head pose monitoring system that detects whether a us
 1. Install dependencies: ```pip install -r requirements.txt```
 2. Preprocess the dataset: ```python preprocess_biwi.py```  
 This will save the extracted landmarks to ```data/biwi_landmarks.npz```.
-3. Train the model with the extracted landmarks: ```python train_mlp.py```.
+3. Train the model with the extracted landmarks: ```python train_mlp.py```   
 This will save the trained model to ```models/mlp.pth```.
-4. Run the real-time webcam: ```python main.py```.
-5. To exit, press the 'q' key.
+5. Run the real-time webcam: ```python main.py```.
+6. To exit, press the ```q``` key.
